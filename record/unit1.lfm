@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 289
+  Height = 240
+  Top = 225
+  Width = 573
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 573
+  LCLVersion = '2.0.6.0'
+  object GroupBox1: TGroupBox
+    Left = 9
+    Height = 225
+    Top = 7
+    Width = 273
+    Caption = 'Write'
+    ClientHeight = 205
+    ClientWidth = 269
+    TabOrder = 0
+    object Button1: TButton
+      Left = 24
+      Height = 25
+      Top = 11
+      Width = 75
+      Caption = 'Button1'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 182
+      Height = 23
+      Top = 38
+      Width = 80
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 183
+      Height = 23
+      Top = 82
+      Width = 80
+      TabOrder = 2
+    end
+    object Label1: TLabel
+      Left = 102
+      Height = 15
+      Top = 43
+      Width = 30
+      Caption = 'name'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 105
+      Height = 15
+      Top = 87
+      Width = 19
+      Caption = 'age'
+      ParentColor = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 297
+    Height = 226
+    Top = 6
+    Width = 265
+    Caption = 'Read'
+    ClientHeight = 206
+    ClientWidth = 261
+    TabOrder = 1
+    object Button2: TButton
+      Left = 24
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Button2'
+      OnClick = Button2Click
+      TabOrder = 0
+    end
+    object Edit3: TEdit
+      Left = 168
+      Height = 23
+      Top = 39
+      Width = 80
+      TabOrder = 1
+    end
+    object Edit4: TEdit
+      Left = 168
+      Height = 23
+      Top = 83
+      Width = 80
+      TabOrder = 2
+    end
+    object Label3: TLabel
+      Left = 105
+      Height = 15
+      Top = 87
+      Width = 19
+      Caption = 'age'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 102
+      Height = 15
+      Top = 43
+      Width = 30
+      Caption = 'name'
+      ParentColor = False
+    end
+  end
+end
